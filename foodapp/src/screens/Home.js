@@ -114,11 +114,9 @@ export default function Home() {
                     <div key={index} className='col-12 col-md-6 col-lg-4'>
                       {console.log(filterItems.url)}
                       <Card
-                        key={`card-${index}`} // Use a unique key based on the index
-                        // foodName={filterItems.name}
+                        key={`card-${index}`} 
                         foodItem={filterItems}
                         options={filterItems.options[0]}
-                        // ImgSrc={filterItems.img}
                       />
                     </div>
                   ))                  
