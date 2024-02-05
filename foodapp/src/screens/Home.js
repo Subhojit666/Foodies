@@ -49,13 +49,8 @@ export default function Home() {
                   placeholder="Search"
                   aria-label="Search"
                   value={search} onChange={(e)=>{setSearch(e.target.value)}}
-                ></input>
-                {/* <button
-                  className="btn btn-outline-success text-white bg-success"
-                  type="submit"
                 >
-                  Search
-                </button> */}
+                </input>
               </div>
             </div>
             <div className="carousel-item active">
